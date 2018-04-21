@@ -1,0 +1,16 @@
+@import url('//ajax.googleapis.com/ajax/libs/angular_material/0.8.3/angular-material.min.css');
+
+.login-form
+
+mat-card {
+  padding: 0 !important;
+}
+
+
+mat-card-title {
+  /*background-color: blue;*/
+  font-family: 'Roboto', sans-serif;
+
+}
+
+

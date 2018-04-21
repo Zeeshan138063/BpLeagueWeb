@@ -1,1 +1,75 @@
 /* You can add global styles to this file, and also import other style files */
+/*@import "~@angular/material/prebuilt-themes/indigo-pink.css";*/
+
+@import url('https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css');
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+.mat-card {
+  text-align: -webkit-center;
+}
+
+
+
+.example-fill-remaining-space {
+  /* This fills the remaining space, by using flexbox.
+     Every toolbar row uses a flexbox row layout. */
+  flex:1 1 auto;
+}
+
+
+.demo-toolbar {
+  margin: 5px ;
+  display: flex;
+  width: 100%;
+
+}
+.mat-button, .mat-fab, .mat-icon-button, .mat-mini-fab, .mat-raised-button {
+  color: currentColor;
+}
+.mat-button{
+
+  margin: 5px;
+  font-family: Arial;
+  font-size: 20px;
+}
+.demo-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.demo-full-width {
+  width: 100%;
+}
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+mat-card {
+  max-width: 30%;
+  margin: 5em auto;
+  text-align: center;
+  text-anchor: 1px;
+
+}
+
+mat-toolbar-row {
+  justify-content: space-between;
+}
+
+.done {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+}
+
+.content-center {
+  text-align: -webkit-center;
+}

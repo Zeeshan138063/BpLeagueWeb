@@ -1,0 +1,12 @@
+.form-bg{
+  width: 460px!important;
+  height: 250px!important;
+}
+
+
+.mat-raised-button{
+
+  font-family: bold;
+  width: 200px;
+  height: auto;
+}
