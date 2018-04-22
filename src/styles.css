@@ -126,8 +126,9 @@ mat-toolbar-row {
   float: right;
 }
 .bodyDiv{
-  margin-top: 0;
-  padding: 20px
+  margin-bottom: 0px;
+  margin-top: 0px ;
+  padding: 0px 20px 0px 20px
 
 }
 .maindiv {
