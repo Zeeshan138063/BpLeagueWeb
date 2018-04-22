@@ -10,6 +10,34 @@
 
 
 
+.customized-mat-button{
+
+
+  margin-left: 50%;
+  margin-right: 50%;
+
+  background-color: lavender;
+  font-family: sans-serif;
+  font-size: 5em;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 30px 10px 30px;
+
+}
+
+
+.headingDivLeagueOwner{
+  width: 100%;
+  length: 300px;
+  background-color: #3385ff;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-family: bold;
+}
+
+
+
 .example-fill-remaining-space {
   /* This fills the remaining space, by using flexbox.
      Every toolbar row uses a flexbox row layout. */
@@ -72,4 +100,38 @@ mat-toolbar-row {
 
 .content-center {
   text-align: -webkit-center;
+}
+
+.ownertextDiv{
+  border: solid  ;
+  text-align: center;
+  font-family: SansSerif  , Times, serif;
+  font-size: 30vw;
+}
+
+.divLeft{
+  background-color: aqua;
+  width: 55%;
+  height: 100%;
+  border: solid;
+  padding: 50px;
+  float: left;
+}
+.divRight{
+  background-color: mediumblue;
+  width: 45%;
+  height: 100%;
+  border: solid;
+  padding: 50px;
+  float: right;
+}
+.bodyDiv{
+  margin-top: 0;
+  padding: 20px
+
+}
+.maindiv {
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 100%;
 }

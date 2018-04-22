@@ -1,19 +1,28 @@
 
 
-<div class="bg">
-  <mat-toolbar  >
+<div class="bodyDiv">
 
-    <span ><img src="../../assets/title_logo.png" routerLink="" height="60" width="60"/></span>
 
-    <span class="example-fill-remaining-space"></span>
-    <a mat-button routerLink="about" routerLinkActive="menu-link-active"> PROFILE </a>
-    <a mat-button routerLink="league_owner" routerLinkActive="menu-link-active">LEAGUES</a>
-    <a mat-button routerLinkActive="menu-link-active" routerLink="refree">MATCHES</a>
-    <a mat-button routerLink="login" routerLinkActive="menu-link-active">TOURNAMENTS</a>
-    <a mat-button routerLinkActive="menu-link-active" routerLink="/register">BLOG</a>
-    <a mat-button routerLinkActive="menu-link-active" routerLink="/register">CONTACT</a>
+  <span style="padding: 10% 50% 15% 50%"><img src="../../assets/title_logo.png" routerLink="" height="60" width="60"/></span>
+  <div class="bg">
+    <mat-toolbar  >
+      <span class="example-fill-remaining-space"></span>
+      <a mat-button routerLink="profile" routerLinkActive="menu-link-active"> PROFILE </a>
+      <a mat-button routerLink="leagues" routerLinkActive="menu-link-active">LEAGUES</a>
+      <a mat-button routerLinkActive="menu-link-active" routerLink="matches">MATCHES</a>
+      <a mat-button routerLink="tournaments" routerLinkActive="menu-link-active">TOURNAMENTS</a>
+      <a mat-button routerLinkActive="menu-link-active" routerLink="blog">BLOG</a>
+      <a mat-button routerLinkActive="menu-link-active" routerLink="contact">CONTACT</a>
 
-  </mat-toolbar>
+    </mat-toolbar>
 
+  </div>
 </div>
+
 <!--<router-outlet></router-outlet>-->
+
+<!--{path: 'profile', component: OwnerProfileComponent},-->
+<!--{path: 'leagues', component: LeagueComponent},-->
+<!--{path: 'matches', component: MatchComponent},-->
+<!--{path: 'tournaments', component: TournamentComponent},-->
+<!--{path: 'contact', component: ContactComponent},-->

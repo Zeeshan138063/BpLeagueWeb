@@ -10,6 +10,12 @@ import {LoginComponent} from './login/login.component';
 import {Header1Component} from './header1/header1.component';
 import {ForgetComponent} from './forget/forget.component';
 import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
+import {OwnerProfileComponent} from './owner-profile/owner-profile.component';
+import {LeagueComponent} from './league/league.component';
+import {MatchComponent} from './match/match.component';
+import {TournamentComponent} from './tournament/tournament.component';
+import {ContactComponent} from './contact/contact.component';
+import {BlogComponent} from './blog/blog.component';
 
 
 const routes: Routes = [
@@ -17,10 +23,7 @@ const routes: Routes = [
     path: 'register',
     component: SignUpComponent
   },
-  {
-    path: 'refree',
-    component: RefreeComponent
-  },
+  {path: 'refree', component: RefreeComponent},
   {
     path: 'about',
     component: AboutComponent
@@ -41,6 +44,15 @@ const routes: Routes = [
     path: 'forget',
     component: ForgetComponent
   },
+
+  // leagur owner page routes
+
+  {path: 'profile', component: OwnerProfileComponent},
+  {path: 'leagues', component: LeagueComponent},
+  {path: 'matches', component: MatchComponent},
+  {path: 'tournaments', component: TournamentComponent},
+  {path: 'contact', component: ContactComponent},
+  {path: 'blog', component: BlogComponent},
   {
     path: '',
     redirectTo: '/login', pathMatch: 'full'

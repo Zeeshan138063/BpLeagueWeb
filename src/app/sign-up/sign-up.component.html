@@ -64,29 +64,38 @@
       </tr>
         <tr>
         <td>
-          <mat-form-field>
+          <mat-form-field class="demo-full-width">
             <input type="password" matInput placeholder="Password">
           </mat-form-field>
         </td>
       </tr>
       <tr>
         <td>
-          <mat-form-field>
+          <mat-form-field class="demo-full-width">
             <input type="password" matInput placeholder="ReType Password">
           </mat-form-field>
         </td>
       </tr>
       <tr>
         <td>
-          <mat-form-field>
+          <mat-form-field class="demo-full-width">
             <mat-select placeholder="Profile Type">
               <mat-option>None</mat-option>
-              <mat-option *ngFor="let state of states" [value]="state">{{state}}</mat-option>
+              <mat-option *ngFor="let profile of profileList" [value]="profile">{{profile}}</mat-option>
             </mat-select>
           </mat-form-field>
         </td>
       </tr>
 
+      <tr>
+        <td>
+          <mat-form-field class="demo-full-width">
+            <mat-select placeholder="Sports"  multiple>
+              <mat-option *ngFor="let sport of sportsList" [value]="sport">{{sport}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </td>
+      </tr>
       <tr>
         <td>
         </td>

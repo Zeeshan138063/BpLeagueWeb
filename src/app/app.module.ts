@@ -34,6 +34,12 @@ import { ForgetComponent } from './forget/forget.component';
 import { AdminNavbarComponent } from './admin-navbar/admin-navbar.component';
 import { OwnerNavbarComponent } from './owner-navbar/owner-navbar.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { OwnerProfileComponent } from './owner-profile/owner-profile.component';
+import { LeagueComponent } from './league/league.component';
+import { MatchComponent } from './match/match.component';
+import { TournamentComponent } from './tournament/tournament.component';
+import { BlogComponent } from './blog/blog.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -49,7 +55,13 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     ForgetComponent,
     AdminNavbarComponent,
     OwnerNavbarComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    OwnerProfileComponent,
+    LeagueComponent,
+    MatchComponent,
+    TournamentComponent,
+    BlogComponent,
+    ContactComponent
   ],
   imports: [
     AppRoutingModule,
